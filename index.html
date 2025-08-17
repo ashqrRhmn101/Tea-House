@@ -18,9 +18,9 @@
     <!--  -->
     <title>Tea House</title>
   </head>
-  <body class="manrope p-5">
+  <body class="manrope">
     <!-- Header Section -->
-    <header>
+    <header class="p-5">
       <!-- Banner Section -->
       <div
         class="banner max-w-[1280px] mx-auto flex flex-col md:flex-row justify-around items-center gap-10"
@@ -51,8 +51,9 @@
         </div>
       </div>
     </header>
+
     <!-- Main Section -->
-    <main class="max-w-[1280px] mx-auto">
+    <main class="max-w-[1280px] mx-auto p-5">
       <!-- Featured Products Section -->
       <section class="text-center my-40">
         <h1 class="text-3xl font-bold">Our Featured Products</h1>
@@ -148,7 +149,76 @@
         </div>
       </section>
     </main>
+
     <!-- Footer Section -->
-    <footer></footer>
+    <footer>
+      <div
+        class="footer-main bg-gradient-to-l from-[#ff0000]/10 to-[#ff8938]/20 py-20"
+      >
+        <div class="max-w-[1280px] mx-auto p-5">
+          <div class="logo flex justify-between items-center">
+            <img src="images/cup.png" class="text-black" alt="" />
+            <div class="btn flex items-center gap-10">
+              <p class="text-[#494949]">Ready to get strated?</p>
+              <button
+                class="w-[200px] h-[64px] font-bold text-white bg-gradient-to-l from-[#ff0000] to-[#ff8938] rounded-lg"
+              >
+                <span>Explore Mores</span>
+              </button>
+            </div>
+          </div>
+          <!-- Link section -->
+          <div class="link py-25 grid grid-cols-4">
+            <div class="1">
+              <h2 class="text-lg font-semibold pb-8">Quick Links</h2>
+              <ul class="text-[#777777]">
+                <li><a href="">Home</a></li>
+                <li class="py-5"><a href="">AboutUs</a></li>
+                <li><a href="">Insurance</a></li>
+                <li class="py-5"><a href="">Privacy Policy</a></li>
+              </ul>
+            </div>
+            <!-- 2 -->
+            <div class="2">
+              <h2 class="text-lg font-semibold pb-8">Our Service</h2>
+              <ul class="text-[#777777]">
+                <li><a href="">Life Insurance</a></li>
+                <li class="py-5"><a href="">Car Insurance</a></li>
+                <li><a href="">Health Insurance</a></li>
+                <li class="py-5"><a href="">House Insurance</a></li>
+              </ul>
+            </div>
+            <div class="3">
+              <h2 class="text-lg font-semibold pb-8">Help</h2>
+              <ul class="text-[#777777]">
+                <li><a href="">FAQs</a></li>
+                <li class="py-5"><a href="">Contact Us</a></li>
+              </ul>
+            </div>
+            <div class="4">
+              <h2 class="text-2xl font-semibold pb-8">
+                Subscribe to our newsletter
+              </h2>
+              <p class="text-[#777777]">Email address</p>
+              <input class="border-b-2" type="email" name="" id="" />
+              <button
+                class="text-white bg-gradient-to-l from-[#ff0000] to-[#ff8938] rounded-[100%] p-1"
+              >
+                <i class="fa-solid fa-angle-right"></i>
+              </button>
+              <!-- icon -->
+              <div class="pt-8 flex gap-4">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-linkedin"></i>
+                <i class="fa-brands fa-twitter"></i>
+              </div>
+            </div>
+          </div>
+          <p class="text-center">
+            © 2027 Ashiqur Rahman - All rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
